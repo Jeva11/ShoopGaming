@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shoop Gaming – Official Channel Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shoop Gaming – cozy challenge runs, story-driven games, and ways to support the channel. See what I’m playing now and join the community.">
+  
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Js test - update 4 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   <script src="//unpkg.com/globe.gl"></script>
+   <script src="js/main.js"></script>
+
+</head>
+<body class="theme-day">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <div class="page">
+    <header class="site-header">
+      <div class="logo-area">
+        <img src="images/shoop-logo.png" alt="Shoop Gaming logo" class="site-logo">
+        <div class="site-title-group">
+          <h1 class="site-title">Shoop Gaming</h1>
+          <p class="site-tagline">Cozy challenge runs &amp; story-driven adventures.</p>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <nav class="site-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="#now-playing">Now Playing</a></li>
+            <li><a href="#highlights">Highlights</a></li>
+            <li><a href="#community-map">Community Map</a></li>
+            <li><a href="#support">Support</a></li>
+            <li><a href="#ajax-section">Recommendations</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Theme toggle button test 3 -->
+        <button
+          type="button"
+          class="theme-toggle-btn"
+          id="theme-toggle"
+          aria-pressed="false"
+        >
+          <span class="theme-toggle-icon" aria-hidden="true">🌙</span>
+          <span class="theme-toggle-text">Night mode</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- Hero -->
+      <section id="hero" class="hero">
+        <div class="hero-text">
+          <h2>Welcome to Shoop Gaming</h2>
+          <p>
+            I’m Shoop – a storyteller who loves challenge runs, nostalgic games,
+            and hanging out with a chill community. This is the home base for
+            everything I’m playing, planning, and dreaming up for the channel.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#now-playing" class="btn primary-btn">See What I’m Playing</a>
+            <a href="#support" class="btn secondary-btn">Support the Channel</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img src="images/hero-channel-art.jpg" alt="Collage of games featured on Shoop Gaming">
+        </div>
+      </section>
+
+      <!-- jQuery Widget -->
+      <section id="now-playing" class="section section-games" aria-labelledby="games-heading">
+        <header class="section-header">
+          <h2 id="games-heading">Games I’m Into Right Now</h2>
+          <p>Browse what I’m currently streaming, grinding off-camera, or planning for future runs.</p>
+        </header>
+
+        <div id="game-tabs">
+          <ul>
+            <li><a href="#tab-current">Currently Playing</a></li>
+            <li><a href="#tab-upcoming">Upcoming Runs</a></li>
+            <li><a href="#tab-completed">Completed Favorites</a></li>
+          </ul>
+
+          <section id="tab-current" aria-label="Currently playing games">
+            <article class="game-card">
+              <h3>Pokémon Challenge Runs</h3>
+              <p>
+                Experimental team builds, unusual rulesets, and story-driven challenges
+                across different Pokémon generations. No extreme grind, just some gaming.
+              </p>
+            </article>
+            <article class="game-card">
+              <h3>Cozy RPG Nights</h3>
+              <p>
+                Slower-paced RPG sessions where I focus on hanging out with y'all
+              </p>
+            </article>
+          </section>
+
+          <section id="tab-upcoming" aria-label="Upcoming runs and series">
+            <article class="game-card">
+              <h3>MegaBonk Strategy</h3>
+              <p>
+                A series where I go through every character in Megabonk
+              </p>
+            </article>
+            <article class="game-card">
+              <h3>Retro Day</h3>
+              <p>
+                A day of older favorites picked by the community. Expect pixel art,
+                janky mechanics, and lots of nostalgia.
+              </p>
+            </article>
+          </section>
+
+          <section id="tab-completed" aria-label="Completed games and past runs">
+            <article class="game-card">
+              <h3>Legendary Challenge Vault</h3>
+              <p>
+                Challenges that never made it YouTube - Palworld, Dark Cloud 2, DeltaRune etc.
+              </p>
+            </article>
+          </section>
+        </div>
+      </section>
+
+      <!-- Slideshow  -->
+      <section id="highlights" class="section section-highlights" aria-labelledby="highlights-heading">
+        <header class="section-header">
+          <h2 id="highlights-heading">Channel Highlights</h2>
+          <p>Some favorite moments, thumbnails, and series art from Shoop Gaming.</p>
+        </header>
+
+        <div id="highlight-carousel" class="carousel" aria-label="Shoop Gaming highlight slideshow">
+          <button class="carousel-control prev" type="button" aria-label="Previous slide">
+            &#10094;
+          </button>
+
+          <div class="carousel-track">
+            <figure class="carousel-slide">
+              <img src="images/gamethumb1.jpg" alt="Shoop Gaming highlight thumbnail 1">
+              <figcaption>The video that started it all</figcaption>
+            </figure>
+            <figure class="carousel-slide">
+              <img src="images/gamethumb2.jpg" alt="Shoop Gaming highlight thumbnail 2">
+              <figcaption>Honestly a must play, it's called Big Blue</figcaption>
+            </figure>
+            <figure class="carousel-slide">
+              <img src="images/gamethumb3.jpg" alt="Shoop Gaming highlight thumbnail 3">
+              <figcaption>They are still updating this game</figcaption>
+            </figure>
+          </div>
+
+          <button class="carousel-control next" type="button" aria-label="Next slide">
+            &#10095;
+          </button>
+
+          <div class="carousel-indicators" aria-hidden="true">
+            <button type="button" class="indicator" data-slide="0"></button>
+            <button type="button" class="indicator" data-slide="1"></button>
+            <button type="button" class="indicator" data-slide="2"></button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Community Map -->
+      <section id="community-map" class="section section-map" aria-labelledby="map-heading">
+        <header class="section-header">
+          <h2 id="map-heading">Shoop Community Around the World</h2>
+          <p>
+            I love seeing where everyone is watching from. As the site grows,
+            this map will light up with markers from viewers who choose to share
+            their general location.
+          </p>
+        </header>
+
+        <div class="map-layout">
+          <div id="follower-map" class="world-map" aria-label="World map showing follower locations">
+                      </div>
+
+          <aside class="map-sidebar">
+            <h3>Drop a Pin</h3>
+            <p>
+     Share your city or region, and watch your pin appear on the globe!
+     Just enter something like "London, UK" or "Tokyo, Japan".
+   </p>
+            <form id="map-form" class="map-form">
+              <div class="form-field">
+                <label for="map-username">Name or handle</label>
+                <input type="text" id="map-username" name="map-username" autocomplete="nickname">
+              </div>
+
+              <div class="form-field">
+                <label for="map-location">City / Region</label>
+                <input type="text" id="map-location" name="map-location" autocomplete="address-level2">
+              </div>
+
+              <button type="submit" class="btn">Add My Pin to the Map</button>
+            </form>
+          </aside>
+        </div>
+      </section>
+
+      <!-- Web Storage Section -->
+      <section id="favorites" class="section section-storage" aria-labelledby="favorites-heading">
+        <header class="section-header">
+          <h2 id="favorites-heading">Your Shoop Gaming Corner</h2>
+          <p>Save a few details locally so this page feels more like your space.</p>
+        </header>
+
+        <div class="storage-layout">
+          <form id="favorites-form" class="storage-form">
+            <div class="form-field">
+              <label for="fav-name">Your name or username</label>
+              <input type="text" id="fav-name" name="fav-name" autocomplete="nickname">
+            </div>
+
+            <div class="form-field">
+              <label for="fav-game">Your favorite game to watch</label>
+              <input type="text" id="fav-game" name="fav-game">
+            </div>
+
+            <div class="form-field">
+              <label for="fav-vibe">Your ideal stream vibe</label>
+              <select id="fav-vibe" name="fav-vibe">
+                <option value="">Select one</option>
+                <option value="cozy">Cozy &amp; relaxing</option>
+                <option value="hype">High energy &amp; chaotic</option>
+                <option value="story">Story-focused &amp; emotional</option>
+                <option value="background">Chill background while you work</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn">Save My Preferences</button>
+            <button type="button" id="clear-storage" class="btn secondary-btn">Clear Saved Data</button>
+          </form>
+
+          <aside class="storage-display" aria-live="polite">
+            <h3>Welcome back, <span id="stored-name">friend</span>!</h3>
+            <p>
+              You love watching <span id="stored-game">great games</span> with a
+              <span id="stored-vibe">cozy</span> vibe.
+            </p>
+            <p class="storage-note">
+              This info is stored only in your browser using web storage.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <!-- API/ajax if it'll work otherwise JSON file - already named ajax, and everythings working so not gonna touch -->
+      <section id="ajax-section" class="section section-ajax" aria-labelledby="ajax-heading">
+        <header class="section-header">
+          <h2 id="ajax-heading">Shoop’s Game Recommendations</h2>
+          <p>
+            These suggestions will eventually load dynamically from an API or JSON file,
+            so you can discover games with similar vibes to the channel.
+          </p>
+        </header>
+
+        <form id="recommendation-filter" class="ajax-filter">
+          <div class="form-field">
+            <label for="rec-genre">Pick a mood or genre</label>
+            <select id="rec-genre" name="rec-genre">
+              <option value="all">All moods</option>
+              <option value="cozy">Cozy</option>
+              <option value="story">Story-heavy</option>
+              <option value="challenge">Challenge-focused</option>
+              <option value="retro">Retro</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn">Load Recommendations</button>
+        </form>
+
+        <div id="recommendation-results" class="ajax-results" aria-live="polite">
+          <!-- inject -->
+        </div>
+      </section>
+
+      <!-- Support h2s were listed in wireframe, but h3 looked better -->
+      <section id="support" class="section section-support" aria-labelledby="support-heading">
+        <header class="section-header">
+          <h2 id="support-heading">Support Shoop Gaming</h2>
+          <p>
+            Watching, chatting, and sharing streams already means a lot. If you’d like
+            to go further, here are a few ways to support what I’m building.
+          </p>
+        </header>
+
+        <div class="support-options">
+          <article class="support-card">
+            <h3>Subscribe &amp; Turn on Notifications</h3>
+            <p>
+              The easiest way to help: subscribe to the channel, like the videos you enjoy,
+              and share them with a friend who’d love the same games.
+            </p>
+            <a href="https://www.youtube.com/@shoopwoop3470" class="btn" target="_blank" rel="noopener noreferrer">
+     Visit YouTube Channel
+   </a>
+          </article>
+
+          <article class="support-card">
+            <h3>Memberships &amp; Tips</h3>
+            <p>
+              When available, channel memberships and tip jars help cover gear,
+              game purchases, and editing time so I can make better videos.
+            </p>
+          <span class="btn btn-coming-soon">
+            Coming Soon
+          </span>
+          </article>
+
+          <article class="support-card">
+            <h3>Spread the Word</h3>
+            <p>
+              Sharing streams in your Discords or group chats, or just talking about
+              the channel with friends, helps more than you think.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact & FAQ -->
+      <section id="contact" class="section section-contact" aria-labelledby="contact-heading">
+        <header class="section-header">
+          <h2 id="contact-heading">Contact &amp; FAQ</h2>
+          <p>Have a question, collaboration idea, or game recommendation?</p>
+        </header>
+
+        <div class="contact-layout">
+          <form id="contact-form" class="contact-form" novalidate>
+            <div class="form-field">
+              <label for="contact-name">Name</label>
+              <input type="text" id="contact-name" name="contact-name" autocomplete="name" required>
+            </div>
+
+            <div class="form-field">
+              <label for="contact-email">Email</label>
+              <input type="email" id="contact-email" name="contact-email" autocomplete="email" required>
+            </div>
+
+            <div class="form-field">
+              <label for="contact-topic">Topic</label>
+              <select id="contact-topic" name="contact-topic">
+                <option value="general">General question</option>
+                <option value="collab">Collaboration</option>
+                <option value="feedback">Feedback</option>
+                <option value="suggestion">Game suggestion</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="contact-message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+
+          <aside class="faq" aria-label="Frequently asked questions">
+            <h3>FAQ</h3>
+            <dl>
+              <dt>What kind of games do you usually play?</dt>
+              <dd>
+                Mostly challenge runs, story-heavy games, and nostalgic titles that are fun
+                to talk about with chat.
+              </dd>
+
+              <dt>Do you accept game suggestions?</dt>
+              <dd>
+                Yes! Use the form here to send suggestions. I can’t promise to play everything,
+                but I love seeing what you recommend.
+              </dd>
+
+              <dt>Where can I get updates?</dt>
+              <dd>
+                Major updates go on the YouTube community tab, and this page will always list
+                what I’m currently into.
+              </dd>
+            </dl>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <p class="footer-title">Shoop Gaming</p>
+          <p class="footer-tagline">Thanks for hanging out in this little corner of the internet.</p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Find Me On YouTube</h3>
+          <ul>
+            <li><a href="https://www.youtube.com/@shoopwoop3470" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year">2025</span> Shoop Gaming. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

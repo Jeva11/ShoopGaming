@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Stardew Valley",
+    "genre": "cozy",
+    "platform": "PC, Console, Mobile",
+    "description": "A charming farming sim where you build your dream farm, befriend villagers, and explore mysterious caves. Perfect for relaxing sessions.",
+    "steamUrl": "https://store.steampowered.com/app/413150/Stardew_Valley/",
+    "tagline": "Plant crops, raise animals, and create the farm of your dreams."
+  },
+  {
+    "title": "DELTARUNE",
+    "genre": "story",
+    "platform": "PC, Console",
+    "description": "An incredible story-driven RPG from the creator of Undertale. Emotional narrative with memorable characters and tough choices.",
+    "steamUrl": "https://store.steampowered.com/app/1671210/DELTARUNE/",
+    "tagline": "A narrative adventure that will make you laugh and cry."
+  },
+  {
+    "title": "Megabonk",
+    "genre": "challenge",
+    "platform": "PC",
+    "description": "An intense platformer that tests your skills and reflexes. Every level is a new challenge that rewards precision and persistence.",
+    "steamUrl": "https://store.steampowered.com/app/3405340/Megabonk/",
+    "tagline": "Precision platforming at its finest - prepare to bonk!"
+  },
+  {
+    "title": "SPORE",
+    "genre": "retro",
+    "platform": "PC",
+    "description": "The classic creature creator and evolution simulator. Guide your species from cell to space-faring civilization.",
+    "steamUrl": "https://store.steampowered.com/app/17390/SPORE/",
+    "tagline": "Create, evolve, and conquer the galaxy."
+  },
+  {
+    "title": "Palia",
+    "genre": "cozy",
+    "platform": "PC",
+    "description": "A cozy community sim MMO where you can farm, fish, forage, and make friends in a welcoming fantasy world.",
+    "steamUrl": "https://store.steampowered.com/app/2707930/Palia/",
+    "tagline": "Build your dream home in a vibrant online community."
+  },
+  {
+    "title": "Hollow Knight",
+    "genre": "challenge",
+    "platform": "PC, Console",
+    "description": "A challenging metroidvania with precise combat and gorgeous hand-drawn art. Explore a vast underground kingdom.",
+    "steamUrl": "https://store.steampowered.com/app/367520/Hollow_Knight/",
+    "tagline": "Descend into a beautiful, brutal world."
+  },
+  {
+    "title": "Celeste",
+    "genre": "story",
+    "platform": "PC, Console",
+    "description": "A touching story about overcoming anxiety wrapped in tight platforming. Every death is a lesson, not a failure.",
+    "steamUrl": "https://store.steampowered.com/app/504230/Celeste/",
+    "tagline": "Climb the mountain, find yourself."
+  },
+  {
+    "title": "Final Fantasy IV",
+    "genre": "retro",
+    "platform": "PC, Console, Mobile",
+    "description": "A legendary JRPG with an unforgettable story and soundtrack. Experience one of gaming's greatest adventures.",
+    "steamUrl": "https://store.steampowered.com/app/1173800/FINAL_FANTASY_IV/",
+    "tagline": "The definitive retro RPG experience."
+  }
+]
